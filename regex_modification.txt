@@ -1,0 +1,9 @@
+This file is notes about how to change the html we get
+
+1. for each video page, we need to search for KEYWORD "rioplayer" first
+
+2. then we can find source url link next to string rioplayer
+
+3. for video url link, we need to get rid of double quotes and "amp;", and save "&"
+
+4. for video(link) name, we can search "video_title", then pass the value to video title to link name
